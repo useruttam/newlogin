@@ -2,11 +2,21 @@
 body{
     margin:0;
     padding:0;
-    
-    background-size:cover;
-  
-    
 }
+
+#chat {
+    border-radius: 50%;
+    border: 5px solid blueviolet;
+    margin: 100px 0px 3px 0px;
+    
+       
+      
+  }
+  #chat:hover{
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
 #keep 
 {
     font-size: 2.8em;

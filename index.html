@@ -11,10 +11,11 @@
     
     </head>
 <body>
+    
  <center>
      <table>
          <tr>
-     <img src="images/loginphoto.png" style="margin: 100px 0px 0px 0px;">
+     <img id="chat" src="/images/loginph.png">
       </tr>
     </br>
       <tr>
@@ -28,13 +29,15 @@
     
     <form class="box" action="advanced.html" method="Post">
         
-        <input type="text" name="" placeholder="Enter User ID" id="username">
-        <input type="text" name="" placeholder="Enter Password" id="password">
+        <input type="text" name="" placeholder="Enter User ID" id="username" required >
+        <input type="password" name="" placeholder="Enter Password" id="password" required>
+        <center>
+        <a href="#!" style="text-align: center;">Forgot password?</a>
+    </center>
+          
         <input type="submit" name="" value="Enter" onclick="validate()">
-      <center>
-        <a href="#" class="forget">Forgot Password?</a>
-      </center>
+        
     </form>
-     <script src="script.js"></script>
+     <script src="advanced.js"></script>
     </body>
 </html>
